@@ -1,0 +1,105 @@
+1. What to expect?
+- This is to get you an idea (like a taste) of what happens in the web dev industry.
+- Give a basic intro about the code and concepts.
+
+- VS Code (The code editor used by a lot of developers).
+
+2. What does a Web Developer do?
+- Website Design and Development.
+- Backend (Logic)
+- Database (Storing of Data)
+- Solving Real World problems via websites and web applications.
+
+Full Stack:
+- Works on pretty much everything related to Web Dev.
+- Frontend + Backend + Database + API + Logic + etc etc
+
+- JavaScript + HTML + CSS + Java (DSA)
+- Adv -> React, NodeJS, MongoDB, ExpressJS (MERN Stack)
+
+3. What does a Programmer do?
+- They write logic.
+- A programmer communicates with the machine and make it perform some tasks.(As per the requirement).
+
+4. What is a Programming Language?
+- Used to communicate between humans and machines.
+- A high level Language is easy for the human to understand. (Java, JS, Python, HTML, CSS, Bootstrap, etc.)
+- A low level langauge is easy for the machine to understand. (Assembly).
+
+5. Turing Test (imitation game)
+
+6. Why Java?
+- Java is a strict langauge -> You can write more robust code. Less chances of error.
+- Java is very popular still. Android core developers use Java. Many enterprises uses Java.
+- DSA will be done in Java. Good for Practice.
+
+7. What is DSA?
+- Data Structures and Algorithm
+
+8. What is Data?
+- A collection of information (A collection of facts)
+- Data Type (Type of data that we can store, yes/no, numbers, string).
+
+9. What is Data Structure?
+- The organising of data.
+- The arrangement of data.
+
+10. What is an algorithm?
+- The series of instructions/steps that we give to the machine to execute.
+- Logic that we want to execute.
+- A set of steps/instructions.
+
+-> Cook maggi
+1. Open the packet
+2. Put some water in the pan.
+3. Turn on the stove.
+4. Put maggi
+5. Put maggi masaala
+6. Wait for 5 mins.
+7. Turn off stove.
+8. Pour it on a plate.
+9. Enjoy
+
+
+11. What is Internet?
+- It's a network (super crazy large scale) connected to various servers and users and devices etc. etc.
+- There is standardization involved.
+-- https://www.google.com - https is one of the standard protocols that account for security of data.
+
+12. How does most of the internet work?
+12. What happens when I open https://www.google.com
+- Request and Response Approach
+
+1. User puts in the URL what needs to be opened.
+2. Client / Browser / User Agent will make a Request to the server.
+3. Server will accept the request and process the request and prepare the response.
+4. Server will send back the response to the client.
+5. Client will load and display the output.
+
+13. What is HTML?
+- Hypertext Markup Language
+- HTML is a language used to create structure of a website.
+- For looks, we use CSS and for functionality we use JS.
+
+
+--> Task -> https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-by-building-a-cat-photo-app/step-1
+
+-> HTML is NOT a programming language because it cannot execute any logic. HTML by it's nature is used to structure the content because of which it is a Markup language and not a programming language.
+
+- HTML consists of tags. Between angular brackets <>
+- Coupled -> This has a separate closing -> <p></p>
+- Self Closing -> Does not have a separate closing tag -> <input />
+
+
+14. Paragraph - To show a regular Paragraph text. We use paragraph tag. <p></p>
+
+15. Heading - To show a heading, we use heading tag.
+- <h1></h1> - Largest
+- <h2></h2>
+- <h3></h3>
+- <h4></h4>
+- <h5></h5>
+- <h6></h6> - Smallest
+
+16. Comments - To explain what we have done in a logic to another human. This is for readability. The comments are ignored by the machines.
+- Syntax: <!-- Comments.... -->
