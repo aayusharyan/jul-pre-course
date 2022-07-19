@@ -1,0 +1,129 @@
+1. Semantic Tags
+- These tags are just like a container, just like a div. But they are for code readability. The code becomes easy to understand. (main, nav, header, footer, section, aside).
+- It improves the structure of the code.
+
+- <main></main>
+- The main content of the page.
+
+2. Nesting -> One tag inside another.
+<main>
+    <h2></h2>
+    <p></p>
+</main>
+
+<main>
+<h2></h2>
+<p></p>
+</main>
+
+3. List - A collection of items.
+- <ul></ul> -> Unordered list 
+- <ol></ol> -> Ordered List
+- <dl></dl> -> Description List
+
+4. Indentation - This is for redability.
+<!-- This is indented -->
+<main>
+    <h2></h2>
+    <p></p>
+</main>
+
+<!-- This is not indented, not so good readability -->
+<main>
+<h2></h2>
+<p></p>
+</main>
+
+5. Image -> This shows image inside the page.
+- <img />
+- Image needs an attribute called as source (src)
+- This attribute tells my HTML where this image is located.
+- <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" />
+
+6. Attribute -> Additional options/property passed on to an HTML tag which allows some specific functionality/looks.
+- Attributes are ALWAYS added to the opening tags.
+- <tag attr=""></tag>
+
+7. Image Alt
+- The purpose of this is to give an alternative text.
+- For a situation when the image is not loaded, we need to show this alternative text.
+- Image is corrupt / the browser cannot support.
+- <img alt="This is a photo of something" />
+
+10. Anchor
+- <a></a>
+- It will help you navigate between pages of your site.
+- href (hypertext reference) -> This contains the URL where the user will be taken when clicked on that anchor tag.
+- <a href="https://freecatphotoapp.com."></a>
+
+12. target attribute
+- This allows opening of the link in a new tab.
+<a href="..." target="_blank">Click here to go...</a>
+
+13. section tag
+- This is also a container, but the use for this is for separating into non-main parts.
+- <section></section>
+
+14. List Item
+- <li></li>
+- This is a single list item of your ul or ol.
+- <li>Item Number 1</li>
+
+15. Figure
+- <figure></figure>
+- This allows to associate an image with a caption.
+- A caption is shown WITH the image.
+- The difference between a caption and an alt attribute is that the alt is shown when the image is not loaded but on the other hand, the caption is always shown with the image.
+- For caption: <figcaption>Text...</figcaption>
+- Figure is a container that contains the image as well as figcaption. Whereas figcaption is just for the caption text.
+
+16. Emphasis
+- <em></em>
+- Used to make a text italic.
+
+17. Strong
+- <strong></strong>
+- USed to make the text bold.
+
+18. Form
+- <form></form>
+- This is a container.
+- This container contains various input fields.
+
+19. Action attribute
+- This attribute tells the browser, where to send the data.
+- When the form is submitted, the data needs to be sent somewhere. Where that needs to be sent is by the action attribute.
+
+20. input
+- <input />
+- This allows the user to enter something on the webpage.
+- By default, the type of input is text.
+- To customize, we use the type attribute.
+- There is a name attribute.
+- This gives an identity to the data that we are entering in the form.
+- placeholder attribute gives a hint for what to input.
+- When I enter something, the hint is gone (because I already know what to enter).
+- required -> Makes the input mandatory to fill, without filling this input, we cannot submit the form.
+
+21. button
+- <button></button>
+- This is an interactive element on which I can click.
+- type="submit" -> Allows the user to submit the form.
+
+21. Radio input
+- <input type="radio" />
+- Allows you to have a choice to select from.
+- The way our browser will link them is by using the same name attribute.
+- From a radio, we can only choose 1.
+
+22. Label
+- <label></label>
+- This allows to connect a text to your input, like a caption.
+- When I click on the text as well, it will select the radio. (checkbox).
+
+23. Identifier - id attribute
+- It is a unique identifier.
+- It allows you to check for any specific element of your webpage.
+- No two elements can have the same id.
+- A single element cannot have 2 ids.
+
