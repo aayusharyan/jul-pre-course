@@ -1,0 +1,69 @@
+1. value attribute
+- The name and the value are only sent to the backend server.
+- In case of radio (even checkboxes), the name is same.
+- Because the name is same, we can only change the value.
+- Value will be different.
+
+2. fieldset
+- <fieldset></fieldset>
+- This is a container tag.
+- This is used for containing different inputs.
+- Fieldset has some style associated to it.
+- Some borders.
+- Just like figures have figcaption, fieldset also has a legend element.
+- This legend element shows the text for that fields.
+
+3. input type checkbox
+- This is for when we want to select multiple options.
+- This can also have 0 selection.
+- We can check and uncheck any option any time.
+- Same thing as return (the name attribute has to be same for the browser to connect multiple checkboxes together, even we will use the label element). 
+
+4. label for attribute
+- This is helpful when the input is not inside the label element.
+- In that case, to link the label and the input, we use for attribute.
+- This for attribute of the label will be associated with the id attribute of your input.
+
+5. input radio/checkbox checked attribute
+- A checked attribute allows to have default selection for the input type checkbox and radio.
+
+6. footer
+- <footer></footer>
+- This is one of the semantic tags.
+- The purpose of a footer is to contain the content which needs to be shown as a footer.
+- For example, developed by, copyright 2022.
+
+7. Head & Body
+<html>
+  <head>
+  </head>
+  <body>
+  </body>
+</html>
+- Body is something which is shown in the viewport.
+- viewport is the browser screen.
+- Other things (commonly as page title, styles, metadata, icons, etc etc) are in the head.
+
+8. Title
+- <title></title>
+- This contains title of the webpage.
+- This title is shown on the tabs.
+
+9. lang attribute
+- This tells in which language the content is in.
+- Commonly, we write the page in english and therefore, the lang attribute is en.
+- This is written in the html tag.
+
+10. Doctype
+- <!DOCTYPE html>
+- This tells the browser which type of document we are creating.
+- Doctype is short for document type.
+- Since the document type is html, i write <!DOCTYPE html>
+
+11. Charset
+- This tells about the characterset that we are using for the contents in the page.
+- Commonly we use UTF-8 (Unicode Transformation Format)
+- For Japanese, we use Shift-JIS (SJIS)
+
+
+To continue further -> Check out the link -> https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-basic-css-by-building-a-cafe-menu/step-1
